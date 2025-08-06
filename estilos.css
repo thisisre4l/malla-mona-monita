@@ -1,0 +1,59 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 1em;
+  background: #f4f4f8;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#malla-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.semestre {
+  flex: 0 0 250px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 1rem;
+}
+
+.semestre h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #4a4a8a;
+}
+
+.ramo {
+  background: #e0e7ff;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.ramo:hover {
+  background: #c7d2fe;
+}
+
+.ramo.aprobado {
+  background: #a7f3d0;
+  text-decoration: line-through;
+  color: #065f46;
+}
+
+.ramo.bloqueado {
+  background: #fca5a5;
+  cursor: not-allowed;
+  color: #7f1d1d;
+}
