@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #fce4ec; /* Rosa muy claro */
     color: #333;
     margin: 0;
     padding: 20px;
@@ -9,6 +9,10 @@ body {
 header {
     text-align: center;
     margin-bottom: 30px;
+}
+
+h1 {
+    color: #d81b60; /* Rosa oscuro */
 }
 
 .malla-container {
@@ -29,12 +33,12 @@ header {
 
 .semestre h2 {
     text-align: center;
-    color: #0056b3;
+    color: #c2185b; /* Rosa más oscuro */
 }
 
 .curso {
-    background-color: #e9e9e9;
-    border: 1px solid #ddd;
+    background-color: #f8bbd0; /* Rosa claro */
+    border: 1px solid #f48fb1; /* Rosa medio */
     border-radius: 4px;
     padding: 10px;
     margin-bottom: 10px;
@@ -44,18 +48,19 @@ header {
 }
 
 .curso:hover {
-    background-color: #dcdcdc;
+    background-color: #e91e63; /* Rosa brillante */
+    color: #fff;
 }
 
 .curso.aprobado {
-    background-color: #28a745;
+    background-color: #d81b60; /* Rosa oscuro */
     color: #fff;
     text-decoration: line-through;
 }
 
 .curso.bloqueado {
     cursor: not-allowed;
-    background-color: #ffcccc;
+    background-color: #ffcdd2; /* Rosa muy pálido */
 }
 
 @media (max-width: 600px) {
