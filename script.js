@@ -9,13 +9,14 @@ document.addEventListener('DOMContentLoaded', () => {
         's2-4': ['s1-7'], // Fundamentos de TO requiere Introducción a TO
         's3-2': ['s2-2'], // Lab Neuroanatomia requiere Neuroanatomia
         's3-4': ['s2-4'], // Marcos Conceptuales requiere Fundamentos de TO
-        's3-6': ['s2-5'], // Metodologia de la Investigación I requiere Bioestadística (asumiendo)
-        's4-2': ['s1-3'], // Anatomia Aplicada requiere Anatomía Humana
+        's3-6': ['s2-5'], // Metodologia de la Investigación I requiere Bioestadística
+        's4-2': ['s1-3', 's1-4'], // Anatomia Aplicada requiere Anatomia Humana y su Lab
         's4-4': ['s3-4'], // Procesos Evaluativos requiere Marcos Conceptuales en TO
         's4-5': ['s1-7'], // Destrezas Terapéuticas requiere Introducción a TO
         's4-6': ['s3-6'], // Metodologia de la Investigación II requiere Metodologia de la Investigación I
-        's5-1': ['s4-1'], // TO en Salud Fisica del Adulto requiere Fisiopatologia (asumiendo)
+        's5-1': ['s4-1'], // TO en Salud Fisica del Adulto requiere Fisiopatologia
         's5-2': ['s4-2'], // Ortótica y Adaptaciones I requiere Anatomia Aplicada
+        's5-3': ['s1-6', 's2-3', 's3-3'], // Salud Mental y Psiquiatria requiere Psicología General, Psicología Evolutiva y Psicología Social
         's5-4': ['s4-4'], // TO en Niños y Adolescentes requiere Procesos Evaluativos
         's5-5': ['s4-4'], // TO en Area Psicosocial requiere Procesos Evaluativos
         's5-6': ['s4-5'], // Destrezas Terapéuticas II requiere Destrezas Terapéuticas
